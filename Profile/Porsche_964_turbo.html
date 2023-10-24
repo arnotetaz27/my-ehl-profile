@@ -2,54 +2,15 @@
 <html>
 <head>
     <title>Porsche 964 Turbo</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: 'Sometype Mono', monospace, sans-serif;
-            color: rgb(0, 0, 0);
-            background-color: rgb(255, 255, 255);
-        }
-        
-        .container {
-            border: 1px solid #ccc;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 700px;
-            background-color: #FDF7EF;
-            border-radius: 10px;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        h1 {
-            text-align: center;
-            color: rgb(0, 0, 255);
-        }
-
-        h2 {
-            color: rgb(0, 0, 255);
-        }
-
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-
-        ul li {
-            display: inline;
-        }
-
-        @media (max-width: 540px) {
-            .container {
-                background-color: red;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71071f4a77.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <h1>Porsche 964 Turbo</h1>
     <div class="container">
-        <p>La Porsche 964 Turbo est un modèle emblématique de la célèbre marque allemande, offrant un mélange fascinant de performances sportives et de design intemporel. Voici une description en cinq parties de cette voiture légendaire </p>
+        <p>La Porsche 964 Turbo est un modèle emblématique de la célèbre marque allemande, offrant un mélange fascinant de performances sportives et de design intemporel. Voici une description en cinq parties de cette voiture légendaire.</p>
         <img src="./images/photo.png" alt="" width="400">
+        <a class="button" href="https://en.wikipedia.org/wiki/Porsche_964"target="_blank">Wikipédia </a>
     </div>
     <div class="container">
         <h2>1. Design Épuré et Intemporel</h2>
@@ -77,8 +38,20 @@
     </div>
     <h1>Plus de contenus</h1>
     <ul>
-        <li><a href="https://www.porsche.com/swiss/fr/accessoriesandservice/classic/models/964/964-turbo/" target="_blank"><img src="./images/porsche.jpg" alt="Logo Porsche" width="100">  </a></li>
-        <li><a href="https://www.youtube.com/watch?v=x6xQ6R6AI88" target="_blank"><img src="./images/youtube.png" alt="Logo YouTube" width="100">  </a></li>
+        <li>
+            <a href="https://www.porsche.com/swiss/fr/accessoriesandservice/classic/models/964/964-turbo/" target="_blank">
+                <div class="logo">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=x6xQ6R6AI88" target="_blank">
+                <div class="fontawesome-icon">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </a>
+        </li>
     </ul>
 </body>
 </html>
